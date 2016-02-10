@@ -5,7 +5,7 @@ Useful device orientation data for [Framer](http://framerjs.com) prototypes. Fin
 ## Example
 
 - [Compass](http://share.framerjs.com/h5r07gzwatsj/) (uses `compassHeading`, only works on mobile)
-- [WaveReader](http://share.framerjs.com/dfqoti70fulk/) (uses `elevation`, only works on mobile)
+- [WaveReader](http://share.framerjs.com/dfqoti70fulk/) (uses `heading`, only works on mobile)
 
 ## Properties
 
