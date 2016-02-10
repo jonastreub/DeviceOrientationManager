@@ -11,11 +11,11 @@ Useful device orientation data for [Framer](http://framerjs.com) prototypes. Fin
 
 - **`heading`** *\<number>* readonly (0 to 360 degrees)
 - **`elevation`** *\<number>* readonly (90 to -90 degrees)
-- **`tilt`** *\<number or null>* readonly (180 to -180 degrees)
-- **`compassHeading`** *\<number or null>* readonly (0 to 360 degrees)
-- **`alpha`** *\<number or null>* readonly (0 to 360 degrees)
-- **`beta`** *\<number or null>* readonly (180 to -180 degrees)
-- **`gamma`** *\<number or null>* readonly (90 to -90 degrees)
+- **`tilt`** *\<number>* readonly (180 to -180 degrees)
+- **`compassHeading`** *\<number>* readonly (0 to 360 degrees)
+- **`alpha`** *\<number>* readonly (0 to 360 degrees)
+- **`beta`** *\<number>* readonly (180 to -180 degrees)
+- **`gamma`** *\<number>* readonly (90 to -90 degrees)
 
 ```coffee
 # Include the DeviceOrientationManager
