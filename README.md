@@ -1,10 +1,11 @@
 # DeviceOrientationManager
 
-Useful device orientation data for [Framer](http://framerjs.com) prototypes. Find out what direction the user is facing and point them in the right direction.
+Useful device orientation data for [Framer](http://framerjs.com) prototypes. Find out what direction the user is facing and point them in the right direction. If you are interested in Virtual Reality you should check out the [VRComponent](https://github.com/jonastreub/VRComponent).
 
 ## Example
 
-- [Compass](http://share.framerjs.com/h5r07gzwatsj/) (only works on mobile)
+- [Compass](http://share.framerjs.com/h5r07gzwatsj/) (uses `compassHeading`, only works on mobile)
+- [WaveReader](http://share.framerjs.com/dfqoti70fulk/) (uses `elevation`, only works on mobile)
 
 ## Properties
 
