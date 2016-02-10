@@ -4,7 +4,7 @@ Useful device orientation data for [Framer](http://framerjs.com) prototypes. Fin
 
 ## Example
 
-- [Compass](http://share.framerjs.com/h5r07gzwatsj/)
+- [Compass](http://share.framerjs.com/h5r07gzwatsj/) (only works on mobile)
 
 ## Properties
 
@@ -25,14 +25,14 @@ orientationManager = new DeviceOrientationManager
 
 ## Functions
 
-- LocationManager.**`available()`** returns *\<bool>*
+- DeviceOrientationManager.**`available()`** returns *\<bool>*
 
 ## Events
 
 - **`onOrientationChange`** (data *\{heading, elevation, tilt, compassHeading, alpha, beta, gamma}*)
 
 ```coffee
-locManager.onOrientationChange (data) ->
+orientationManager.onOrientationChange (data) ->
 	heading = data.heading
 	elevation = data.elevation
 	tilt = data.tilt
